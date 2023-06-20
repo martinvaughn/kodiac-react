@@ -33,7 +33,7 @@ const Main:FC<MainProps> = (props) => {
             Dashboard
           </Typography>
           { /* Brian TODO: Add a material ui search component here:  */}
-          { /* Use this component: https://mui.com/material-ui/react-autocomplete/#search-input  */}
+          { /* Probably want to use this component: https://mui.com/material-ui/react-autocomplete/#search-input  */}
           { /* Note this component is based on the Autocomplete component and just adds the freeSolo prop  */}
 
           { /* REQUIREMENTS:  */}
