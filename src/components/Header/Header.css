@@ -1,0 +1,21 @@
+#my-header {
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+#my-header a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 400px) {
+    #my-header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
